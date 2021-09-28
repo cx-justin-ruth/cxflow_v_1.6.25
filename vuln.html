@@ -1,0 +1,50 @@
+<!-- Vuln include JS code --><!-- Vuln include JS code -->
+<html>
+<body>
+<p>Service ID:
+<div id="demo"></div>
+<div id="demo2"></div>
+<div id="demo3"></div>
+<div id="demo4"></div>
+<div id="demo5"></div>
+</p>
+</body>
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
+  const demo = urlParams.get('demo');
+  const demo2 = urlParams.get('demo2');
+  const demo3 = urlParams.get('demo3');
+  console.log(id);
+
+  if (id != undefined) {
+        const VulnerableVariableDemo = 'id_' + demo;
+        console.log(VulnerableVariable);
+        document.getElementById("demo").innerHTML = VulnerableVariableDemo;
+        document.getElementById("demo2").innerHTML = VulnerableVariableDemo;
+  }
+  
+  
+  console.log(id);
+
+  if (demo2 != undefined) {
+        const VulnerableVariableDemo2 = 'id_' + pwn;
+        console.log(VulnerableVariableDemo2);
+        document.getElementById("demo2").innerHTML = VulnerableVariableDemo2;
+  }
+  
+    if (demo3 != undefined) {
+        const VulnerableVariable = 'id_' + demo3;
+        console.log(VulnerableVariableDemo3);
+        document.getElementById("demo3").innerHTML = VulnerableVariableDemo3;
+  }
+  
+   if (demo4 != undefined) {
+        const VulnerableVariable = 'id_' + demo4;
+        console.log(VulnerableVariableDemo4);
+        document.getElementById("demo3").innerHTML = VulnerableVariableDemo4;
+  }
+  
+</script>
+</html>
