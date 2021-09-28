@@ -7,6 +7,7 @@
 <div id="demo3"></div>
 <div id="demo4"></div>
 <div id="demo5"></div>
+  <div id="demo6"></div>
 </p>
 </body>
 <script>
@@ -16,6 +17,7 @@
   const demo = urlParams.get('demo');
   const demo2 = urlParams.get('demo2');
   const demo3 = urlParams.get('demo3');
+   const demo3 = urlParams.get('demo6');
   console.log(id);
 
   if (id != undefined) {
@@ -23,6 +25,7 @@
         console.log(VulnerableVariable);
         document.getElementById("demo").innerHTML = VulnerableVariableDemo;
         document.getElementById("demo2").innerHTML = VulnerableVariableDemo;
+    document.getElementById("demo6").innerHTML = VulnerableVariableDemo;
   }
   
   
