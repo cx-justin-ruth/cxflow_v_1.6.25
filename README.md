@@ -2,4 +2,4 @@
 cxflow with 1.6.25
 
 
-trigger scan2
+trigger scan3
